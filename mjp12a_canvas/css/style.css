@@ -1,0 +1,46 @@
+body{
+	background-color: #e2e2e2;
+}
+
+#center{
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+#canvasDiv{
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: #565656;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	color: #565656;
+}
+
+#canvas{
+	position: absolute; 
+	left: 5; 
+	top: 200; 
+	z-index: 0;
+}
+
+#background{
+	border:1px solid #000000;
+	position: absolute; 
+	left: 5; top: 200; z-index: 0;
+}
+
+#options{
+	width: 20%;
+	float:right;
+	padding: 10px;
+}
