@@ -1,9 +1,9 @@
 body{
 	background-color:#d8d8d8;
-    font-family: 'Volkhov',serif;}
+    font-family: 'Roboto',sans-serif;}
 
 h1{
-	font-family: 'Volkhov', serif;
+	font-family: 'Roboto', sans-serif;
 	font-style:'Bold';
 	font-size:48pt;
 	vertical-align:'middle';
@@ -11,7 +11,7 @@ h1{
 	padding:20px;}
 
 h2{
-	font-family: 'Volkhov', serif;
+	font-family: 'Roboto', sans-serif;
 	font-style:'Italic';
 	font-size: 12pt;
 	color:#2f4d7f;
@@ -36,6 +36,16 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;}
+
+input[type=password] {
+    width: 50%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;}
+
 
 input[type=submit]:hover {
     background-color: #45a049;}

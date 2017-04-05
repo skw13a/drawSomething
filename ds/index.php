@@ -113,7 +113,7 @@ else if($action=='login')   // it checks whether the user clicked login button o
 
 			echo "<h2>User $name logged in!";
 			$loggedin=true;
-			header('Location:canvas.html');
+			header('Location:draw.php');
 		}
 		else{
 	  		echo "<h2>Invalid UserName or Password</h2";
@@ -130,8 +130,8 @@ else if($action=='login')   // it checks whether the user clicked login button o
 	<head>
 		<title>Welcome</title>
 		<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
-		<link href='login_style.css' type='text/css' rel='stylesheet' />
-		
+		<link href='css/login_style.css' type='text/css' rel='stylesheet' />
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<script>
 
 			function validate()

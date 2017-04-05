@@ -1,4 +1,6 @@
-<?php   session_start();  ?>
+<?php   session_start(); 
+echo "<h2>".$_SESSION["user"] . " is logged in. <br></h2>"?>
+
 
 <!doctype html>
 <html lang="en">
@@ -14,16 +16,21 @@
 
 	</head>
 	<body>
-	<div id=center>
+	<div align='left'>
+		<form id='logout' method="LINK" action="logout.php">
+			<input type="submit" value="Log Out">
+		</form>
+	</div>
+	<div id=title>
 		<h1>Let's Play Draw Something!</h1>
 		<button type=button id='clear'>Clear Canvas</button>
 	
 
 	</div>
 
-	<div id="canvasDiv"></div>
+	<div id="canvasDiv" align='center'></div>
 
-	<div id='options'>
+	<div id='options' align='right'>
 		<button type=button id='colorRed'>Red</button>
 		<br/> <br/>
 		<button type=button id='colorOrange'>Orange</button>

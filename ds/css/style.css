@@ -9,9 +9,9 @@ body{
 }
 
 #canvasDiv{
-	margin: auto;
     width: 60%;
-    padding: 10px;
+    padding: 20px;
+    align: 'center';
 }
 
 h1{
